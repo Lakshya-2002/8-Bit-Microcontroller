@@ -1,0 +1,11 @@
+This project involves developing an 8-bit microcontroller using a streamlined three-cycle, non-pipelined Harvard architecture. The architecture diagram includes critical components such as program and data memory, a program counter, accumulator, instruction register, data register, ALU, MUX, and a control logic unit. The design is meticulously modeled in Verilog HDL to ensure accuracy and efficiency.
+
+The Harvard architecture is a computer architecture with separate storage and signal pathways for instructions and data. Compared to the Von Neumann Architecture, it places greater emphasis on hardware utilization. This architecture facilitates faster processing speed through simultaneous access to data and instruction memory, improves energy efficiency by reducing power consumption, and enhances performance in embedded systems and digital signal processing. 
+
+The choice of 8-bit is made because it is suitable for simple applications that do not require high performance, extensive memory, or complex functionality, making it preferred for low-end applications needing less processing power.
+
+The microcontroller is non-pipelined to simplify the design and implementation process, executing one instruction at a time without overlapping instructions within the same time slot. Each instruction undergoes sequential stages of fetch, decode, and execute.
+
+Validation of the microcontroller's functionality involves using a comprehensive stimulus file as a test bench, with simulations conducted in the Xilinx Vivado tool. The testing process includes 26 diverse instructions to thoroughly demonstrate operational capabilities and reliability across various scenarios.
+
+This initiative advances proficiency in digital design and Verilog HDL, highlighting the importance of rigorous testing and validation to ensure embedded systems' quality and performance. Successfully demonstrating the microcontroller's functionality underscores its potential applications across diverse technological domains, emphasizing its robust design and operational efficiency.
